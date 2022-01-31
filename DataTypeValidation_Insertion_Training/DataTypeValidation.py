@@ -11,7 +11,7 @@ class dBOperation:
     """
       This class shall be used for handling all the SQL operations.
 
-      Written By: iNeuron Intelligence
+      Written By: Datagine.ai
       Version: 1.0
       Revisions: None
 
@@ -31,7 +31,7 @@ def dataBaseConnection(self,DatabaseName):
             Output: Connection to the DB
             On Failure: Raise ConnectionError
 
-                Written By: iNeuron Intelligence
+            Written By: Datagine.ai
             Version: 1.0
             Revisions: None
 
@@ -56,7 +56,7 @@ def createTableDb(self,DatabaseName,column_names):
                     Output: None
                     On Failure: Raise Exception
 
-                        Written By: iNeuron Intelligence
+                    Written By: Datagine.ai
                     Version: 1.0
                     Revisions: None
 
@@ -119,7 +119,7 @@ def insertIntoTableGoodData(self,Database):
                             Output: None
                             On Failure: Raise Exception
 
-                            Written By: iNeuron Intelligence
+                            Written By: Datagine.ai
                             Version: 1.0
                             Revisions: None
 
@@ -167,7 +167,7 @@ def selectingDatafromtableintocsv(self,Database):
                             Output: None
                             On Failure: Raise Exception
 
-                            Written By: iNeuron Intelligence
+                            Written By: Datagine.ai
                             Version: 1.0
                             Revisions: None
 
